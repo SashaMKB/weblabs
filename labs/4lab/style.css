@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    overflow: hidden;
+    background-color: powderblue;
+}
+
+.header a {
+    float: left;  /*выравнивание элемента*/
+    color: black;
+    text-align: center; /*выравнивание текста*/
+    padding: 12px; /*поля с отсупов от каждой стороны*/
+    text-decoration: none; /*отмена подчеркиваний у ссылок*/
+    font-size: 18px;
+}
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header_right {
+  float: right;
+}
+
+.elem {
+    display: inline-block;
+    width: 300px;
+    margin: 0 auto;/*1 значение отсупы с верху и низу, 2 значение автоматических расчет браузером справа и слева*/
+    background: white;
+    text-align: center;
+    font-size: 14px;
+}
